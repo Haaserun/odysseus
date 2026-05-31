@@ -46,7 +46,7 @@ generated and printed on first boot).
 
 ### Option 1: Docker (recommended)
 ```bash
-git clone <your-odysseus-repo-url>
+git clone https://github.com/Haaserun/odysseus
 cd odysseus
 cp .env.example .env       # optional, but recommended for explicit defaults
 docker compose up -d --build
